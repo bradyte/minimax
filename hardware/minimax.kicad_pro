@@ -542,11 +542,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -593,6 +629,22 @@
     [
       "d9b03904-3e0d-40cc-bc70-bbd63756773a",
       "Root"
+    ],
+    [
+      "7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec",
+      "gmsl"
+    ],
+    [
+      "b4a9c74b-3e83-441e-9048-ec6149d222c3",
+      "camera"
+    ],
+    [
+      "877d1132-b95d-4f70-9d75-8a01aff9b6a8",
+      "connector"
+    ],
+    [
+      "ba3a448a-6748-45c3-b453-58c3c5225dd9",
+      "power"
     ]
   ],
   "text_variables": {}
