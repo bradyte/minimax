@@ -514,6 +514,7 @@
 	)
 	(label "SIO_N"
 		(at 105.41 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -524,6 +525,7 @@
 	)
 	(label "SIO_P"
 		(at 105.41 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
