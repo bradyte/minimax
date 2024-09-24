@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ab6e9649-554c-4d47-ab30-ba4fba881d7b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "{GMSL_I2C}"
+		(shape bidirectional)
+		(at 124.46 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9027d1c-652b-4325-bb5f-673826fdbed9")
+	)
+)

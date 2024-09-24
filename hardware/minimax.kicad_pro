@@ -645,6 +645,10 @@
     [
       "ba3a448a-6748-45c3-b453-58c3c5225dd9",
       "power"
+    ],
+    [
+      "20d2129d-2f03-433f-9e29-6de838a8fe3e",
+      "peripherals"
     ]
   ],
   "text_variables": {}

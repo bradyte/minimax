@@ -5,19 +5,25 @@
 	(uuid "d9b03904-3e0d-40cc-bc70-bbd63756773a")
 	(paper "A4")
 	(lib_symbols)
-	(wire
+	(junction
+		(at 114.3 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aaaee58-ebd4-476b-b4db-27080757077b")
+	)
+	(bus
 		(pts
-			(xy 101.6 121.92) (xy 127 121.92)
+			(xy 114.3 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00cc2e86-5310-4f2c-a485-609bcd5d597e")
+		(uuid "4251fe62-9b31-45b2-af4e-a4e374e9d08a")
 	)
 	(bus
 		(pts
-			(xy 101.6 118.11) (xy 127 118.11)
+			(xy 101.6 105.41) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +33,17 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 114.3) (xy 127 114.3)
+			(xy 114.3 152.4) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575cc686-a4b8-4ce7-9bd3-d1c6ef093abb")
+	)
+	(bus
+		(pts
+			(xy 101.6 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +53,27 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 114.3) (xy 177.8 114.3)
+			(xy 127 152.4) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68164e84-a676-4699-8e9a-6d832df9d24a")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce17fda-4efb-4871-ade3-e4b82d79942a")
+	)
+	(bus
+		(pts
+			(xy 152.4 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -45,8 +81,66 @@
 		)
 		(uuid "8f8e01fd-e943-4705-8a51-bdf7d8097c94")
 	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d710821a-77a7-4aa8-9b9b-804db6db4350")
+	)
 	(sheet
-		(at 127 101.6)
+		(at 127 139.7)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20d2129d-2f03-433f-9e29-6de838a8fe3e")
+		(property "Sheetname" "peripherals"
+			(at 127 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 127 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{GMSL_I2C}" bidirectional
+			(at 127 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7bb5322b-0e84-4087-aa55-b7bd6bf822d7")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 88.9)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -58,7 +152,7 @@
 		)
 		(uuid "7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec")
 		(property "Sheetname" "gmsl"
-			(at 127 100.8884 0)
+			(at 127 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "gmsl.kicad_sch"
-			(at 127 127.5846 0)
+			(at 127 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +170,7 @@
 			)
 		)
 		(pin "MIPI{CSI}" input
-			(at 127 114.3 180)
+			(at 127 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,18 +179,8 @@
 			)
 			(uuid "9712046f-4743-4cf5-8f73-a8bd0c5f433f")
 		)
-		(pin "MFP4_RCLKOUT" output
-			(at 127 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "03fb6086-b4b9-4f69-8e2a-6cf8bfb5da38")
-		)
 		(pin "{GMSL_I2C}" bidirectional
-			(at 127 118.11 180)
+			(at 127 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +190,7 @@
 			(uuid "a67fee33-4eed-43b2-b7aa-a1325a6c7688")
 		)
 		(pin "{SIOX}" bidirectional
-			(at 152.4 114.3 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +208,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 101.6)
+		(at 177.8 88.9)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -136,7 +220,7 @@
 		)
 		(uuid "877d1132-b95d-4f70-9d75-8a01aff9b6a8")
 		(property "Sheetname" "connector"
-			(at 177.8 100.8884 0)
+			(at 177.8 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145,7 +229,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 177.8 127.5846 0)
+			(at 177.8 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +238,7 @@
 			)
 		)
 		(pin "{SIOX}" bidirectional
-			(at 177.8 114.3 180)
+			(at 177.8 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,6 +246,16 @@
 				(justify left)
 			)
 			(uuid "f30d31eb-2a59-4767-955b-f8cc02c2caea")
+		)
+		(pin "V_POC" output
+			(at 190.5 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7da9641a-b59a-4495-b46e-27e21e88763c")
 		)
 		(instances
 			(project "minimax"
@@ -172,7 +266,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 101.6)
+		(at 76.2 88.9)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -184,7 +278,7 @@
 		)
 		(uuid "b4a9c74b-3e83-441e-9048-ec6149d222c3")
 		(property "Sheetname" "camera"
-			(at 76.2 100.8884 0)
+			(at 76.2 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +287,7 @@
 			)
 		)
 		(property "Sheetfile" "camera.kicad_sch"
-			(at 76.2 127.5846 0)
+			(at 76.2 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +296,7 @@
 			)
 		)
 		(pin "MIPI{CSI}" output
-			(at 101.6 114.3 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +306,7 @@
 			(uuid "06b167e9-3284-4b28-85ba-bbeb248da221")
 		)
 		(pin "{GMSL_I2C}" bidirectional
-			(at 101.6 118.11 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,16 +314,6 @@
 				(justify right)
 			)
 			(uuid "0ca0155a-f45f-43e2-b5fe-7308f2e48984")
-		)
-		(pin "MFP4_RCLKOUT" input
-			(at 101.6 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "27656b53-8e86-4496-92eb-7f6f18ecd6ad")
 		)
 		(instances
 			(project "minimax"
@@ -240,7 +324,7 @@
 		)
 	)
 	(sheet
-		(at 127 50.8)
+		(at 127 38.1)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -252,7 +336,7 @@
 		)
 		(uuid "ba3a448a-6748-45c3-b453-58c3c5225dd9")
 		(property "Sheetname" "power"
-			(at 127 50.0884 0)
+			(at 127 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,13 +345,23 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 127 76.7846 0)
+			(at 127 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "V_POC" input
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67a9e7fa-f2e3-4554-8ed3-af3091d63e48")
 		)
 		(instances
 			(project "minimax"
