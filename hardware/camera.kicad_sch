@@ -5,6 +5,88 @@
 	(uuid "66b2b835-3107-4c78-84a8-c110e47de7cc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -237,7 +319,7 @@
 				)
 			)
 			(property "Value" "524352271"
-				(at 0 0 0)
+				(at 11.684 10.414 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -245,7 +327,7 @@
 				)
 			)
 			(property "Footprint" "user:CON_524352271_MOL"
-				(at 0 0 0)
+				(at 15.24 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -255,7 +337,7 @@
 				)
 			)
 			(property "Datasheet" "524352271"
-				(at 0 0 0)
+				(at 16.51 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1204,7 +1286,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -1222,7 +1304,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -22.86 0)
 					(length 5.08)
 					(name "10"
@@ -1240,7 +1322,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -25.4 0)
 					(length 5.08)
 					(name "11"
@@ -1258,7 +1340,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -27.94 0)
 					(length 5.08)
 					(name "12"
@@ -1276,7 +1358,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -30.48 0)
 					(length 5.08)
 					(name "13"
@@ -1294,7 +1376,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -33.02 0)
 					(length 5.08)
 					(name "14"
@@ -1312,7 +1394,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -35.56 0)
 					(length 5.08)
 					(name "15"
@@ -1330,7 +1412,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "16"
@@ -1348,7 +1430,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -40.64 0)
 					(length 5.08)
 					(name "17"
@@ -1366,7 +1448,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(name "18"
@@ -1384,7 +1466,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -45.72 0)
 					(length 5.08)
 					(name "19"
@@ -1402,7 +1484,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -1420,7 +1502,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "20"
@@ -1438,7 +1520,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "21"
@@ -1456,7 +1538,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -53.34 0)
 					(length 5.08)
 					(name "22"
@@ -1474,7 +1556,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
@@ -1492,7 +1574,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
@@ -1510,7 +1592,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "5"
@@ -1528,7 +1610,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "6"
@@ -1546,7 +1628,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "7"
@@ -1564,7 +1646,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "8"
@@ -1582,7 +1664,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "9"
@@ -1600,7 +1682,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -55.88 0)
 					(length 5.08)
 					(name "P1"
@@ -1618,7 +1700,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -58.42 0)
 					(length 5.08)
 					(name "P2"
@@ -3785,6 +3867,70 @@
 		(uuid "a0e613c0-3176-487f-bef0-fda2fc6785f0")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 76.2 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02e57038-eedc-4fd2-a3c2-c86594c36086")
+		(property "Reference" "H3"
+			(at 78.74 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 78.74 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 190.5 101.6 0)
 		(unit 1)
@@ -3845,6 +3991,70 @@
 			(project ""
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ccaf014-660a-44fc-b8bf-2376c6a60789")
+		(property "Reference" "H4"
+			(at 91.44 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4051,6 +4261,134 @@
 			(project ""
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 76.2 127 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76913440-dfa7-4270-b2dd-f801614570fe")
+		(property "Reference" "H1"
+			(at 78.74 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 78.74 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 127 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860a8aee-0c29-413d-a37e-3fbbf83d4301")
+		(property "Reference" "H2"
+			(at 91.44 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/b4a9c74b-3e83-441e-9048-ec6149d222c3"
+					(reference "H2")
 					(unit 1)
 				)
 			)

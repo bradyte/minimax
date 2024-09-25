@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(symbol "user:2FA1-NZSP-PCBB6"
+		(symbol "user:59S1AC-40MT5-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -534,7 +534,7 @@
 					)
 				)
 			)
-			(property "Footprint" "user:2FA1-NZSP-PCBB6"
+			(property "Footprint" "user:59S1AC-40MT5-Z"
 				(at 0 0 0)
 				(effects
 					(font
@@ -561,7 +561,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2FA1-NZSP-PCBB6_0_1"
+			(symbol "59S1AC-40MT5-Z_0_1"
 				(polyline
 					(pts
 						(xy -3.81 -3.81) (xy 3.81 -3.81)
@@ -597,7 +597,7 @@
 					)
 				)
 			)
-			(symbol "2FA1-NZSP-PCBB6_1_0"
+			(symbol "59S1AC-40MT5-Z_1_0"
 				(pin bidirectional line
 					(at -6.35 0 0)
 					(length 5.08)
@@ -1322,6 +1322,85 @@
 		)
 	)
 	(symbol
+		(lib_id "user:59S1AC-40MT5-Z")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a47e3b4-0cf5-4755-8b37-4579a2416b0b")
+		(property "Reference" "J2"
+			(at 157.48 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2FA1-NZSP-PCBB6"
+			(at 157.48 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "user:59S1AC-40MT5-Z"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fa0a1aae-0a5d-483b-8a54-2376a93fe546")
+		)
+		(pin "2"
+			(uuid "51004dfa-af78-4af7-9b4a-b4dac72ab4c6")
+		)
+		(pin "5"
+			(uuid "7ef4aaa7-aa8f-4dd3-8880-379784972d43")
+		)
+		(pin "1"
+			(uuid "47ef079d-bc91-44a6-a1ea-cd6794f0dc4d")
+		)
+		(pin "3"
+			(uuid "368ef9de-2ddc-4bbb-9978-2ccd35033b6d")
+		)
+		(instances
+			(project ""
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 97.79 0)
 		(unit 1)
@@ -1383,85 +1462,6 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user:2FA1-NZSP-PCBB6")
-		(at 152.4 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cffc939-a51e-42d9-9f98-e7294a1b1a10")
-		(property "Reference" "J2"
-			(at 157.48 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2FA1-NZSP-PCBB6"
-			(at 157.48 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "user:2FA1-NZSP-PCBB6"
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee5a0e27-a823-41a0-9549-03c1d4854142")
-		)
-		(pin "3"
-			(uuid "9a645d87-f470-4d6f-8330-a94f3851a885")
-		)
-		(pin "5"
-			(uuid "8792818c-85af-4923-ae73-a6b3417180a9")
-		)
-		(pin "2"
-			(uuid "463cc4a7-f487-4072-b8cd-d824d3f72bd1")
-		)
-		(pin "4"
-			(uuid "a4e3d85e-5ce3-403c-912e-174a9fbd0d0f")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
-					(reference "J2")
 					(unit 1)
 				)
 			)

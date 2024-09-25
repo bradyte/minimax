@@ -11,6 +11,16 @@
 		(color 0 0 0 0)
 		(uuid "9aaaee58-ebd4-476b-b4db-27080757077b")
 	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3137e1-ba27-46f9-8dad-bc603f041a37")
+	)
 	(bus
 		(pts
 			(xy 114.3 105.41) (xy 127 105.41)
@@ -80,6 +90,16 @@
 			(type default)
 		)
 		(uuid "8f8e01fd-e943-4705-8a51-bdf7d8097c94")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b485366b-838f-4948-ac7f-240237a47bd2")
 	)
 	(wire
 		(pts
@@ -314,6 +334,26 @@
 				(justify right)
 			)
 			(uuid "0ca0155a-f45f-43e2-b5fe-7308f2e48984")
+		)
+		(pin "POWER_EN" input
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40621e58-995b-4683-b905-7c54fbc35bd1")
+		)
+		(pin "LED_EN" input
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99d90524-5bb4-48f3-84e5-37dc31c73449")
 		)
 		(instances
 			(project "minimax"
