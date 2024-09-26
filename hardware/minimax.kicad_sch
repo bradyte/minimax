@@ -13,7 +13,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 127 92.71)
+			(xy 101.6 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 152.4) (xy 114.3 105.41)
+			(xy 114.3 139.7) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -63,7 +63,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 152.4) (xy 114.3 152.4)
+			(xy 127 139.7) (xy 114.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +73,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 50.8)
+			(xy 190.5 88.9) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 127 96.52)
+			(xy 101.6 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -103,7 +103,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 50.8) (xy 152.4 50.8)
+			(xy 190.5 63.5) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -112,7 +112,7 @@
 		(uuid "d710821a-77a7-4aa8-9b9b-804db6db4350")
 	)
 	(sheet
-		(at 127 139.7)
+		(at 127 127)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -124,16 +124,18 @@
 		)
 		(uuid "20d2129d-2f03-433f-9e29-6de838a8fe3e")
 		(property "Sheetname" "peripherals"
-			(at 127 138.9884 0)
+			(at 127 125.6534 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 127 165.6846 0)
+			(at 127 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142,7 +144,7 @@
 			)
 		)
 		(pin "{GMSL_I2C}" bidirectional
-			(at 127 152.4 180)
+			(at 127 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,10 +174,12 @@
 		)
 		(uuid "7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec")
 		(property "Sheetname" "gmsl"
-			(at 127 88.1884 0)
+			(at 127 87.5534 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -219,6 +223,26 @@
 			)
 			(uuid "fbf91ae0-ffe2-4b34-90a0-09aa9c3a49a4")
 		)
+		(pin "POWER_EN" output
+			(at 127 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bc34e75-eaca-4614-9fd7-f16bc00d2eb4")
+		)
+		(pin "LED_EN" output
+			(at 127 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9cf035b4-b8a9-4567-9586-ec9f69831470")
+		)
 		(instances
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a"
@@ -240,10 +264,12 @@
 		)
 		(uuid "877d1132-b95d-4f70-9d75-8a01aff9b6a8")
 		(property "Sheetname" "connector"
-			(at 177.8 88.1884 0)
+			(at 177.8 87.5534 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -298,10 +324,12 @@
 		)
 		(uuid "b4a9c74b-3e83-441e-9048-ec6149d222c3")
 		(property "Sheetname" "camera"
-			(at 76.2 88.1884 0)
+			(at 76.2 87.5534 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -336,7 +364,7 @@
 			(uuid "0ca0155a-f45f-43e2-b5fe-7308f2e48984")
 		)
 		(pin "POWER_EN" input
-			(at 101.6 92.71 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +374,7 @@
 			(uuid "40621e58-995b-4683-b905-7c54fbc35bd1")
 		)
 		(pin "LED_EN" input
-			(at 101.6 96.52 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +392,7 @@
 		)
 	)
 	(sheet
-		(at 127 38.1)
+		(at 127 50.8)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -376,16 +404,18 @@
 		)
 		(uuid "ba3a448a-6748-45c3-b453-58c3c5225dd9")
 		(property "Sheetname" "power"
-			(at 127 37.3884 0)
+			(at 127 49.4534 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 127 64.0846 0)
+			(at 127 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +424,7 @@
 			)
 		)
 		(pin "V_POC" input
-			(at 152.4 50.8 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
