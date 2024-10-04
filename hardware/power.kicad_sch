@@ -3212,7 +3212,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "793f3b1a-69fa-4704-a743-25a055b97153")
 		(property "Reference" "#PWR029"
 			(at 210.82 83.82 0)
@@ -3223,12 +3222,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 210.82 74.93 0)
+		(property "Value" "+3V3"
+			(at 208.28 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
