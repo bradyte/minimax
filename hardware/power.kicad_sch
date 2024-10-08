@@ -2036,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 101.6 148.59)
+			(xy 101.6 142.24) (xy 101.6 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 139.7) (xy 93.98 139.7)
+			(xy 85.09 137.16) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 91.44) (xy 85.09 139.7)
+			(xy 85.09 91.44) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 101.6 134.62)
+			(xy 101.6 129.54) (xy 101.6 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3297,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 148.59 0)
+		(at 101.6 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3306,7 +3306,7 @@
 		(fields_autoplaced yes)
 		(uuid "3099c542-eed2-4d40-8e3f-de623f3973c8")
 		(property "Reference" "#PWR047"
-			(at 101.6 154.94 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 153.67 0)
+			(at 101.6 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 148.59 0)
+			(at 101.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 148.59 0)
+			(at 101.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 148.59 0)
+			(at 101.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMG1012T")
-		(at 99.06 139.7 0)
+		(at 99.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4376,7 +4376,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfa2a504-a7ca-4dfe-a158-a8bdf75e529b")
 		(property "Reference" "Q3"
-			(at 105.41 139.1284 0)
+			(at 105.41 136.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4385,7 @@
 			)
 		)
 		(property "Value" "DMG1012T"
-			(at 105.41 141.6684 0)
+			(at 105.41 139.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 104.14 141.605 0)
+			(at 104.14 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
-			(at 104.14 143.51 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4414,7 @@
 			)
 		)
 		(property "Description" "20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523"
-			(at 99.06 139.7 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
