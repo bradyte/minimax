@@ -1252,76 +1252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48d071ec-22d4-4bc6-b530-e4b6f2886ed9")
-		(property "Reference" "R13"
-			(at 129.54 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 129.54 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.222 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "770d8ae9-ca6a-46f9-8615-add487b4366b")
-		)
-		(pin "1"
-			(uuid "8ed45654-0926-48e9-a58e-14257ab37934")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "user:59S1AC-40MT5-Z")
 		(at 152.4 88.9 0)
 		(unit 1)
@@ -1732,6 +1662,76 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da599d8c-28ef-4795-8a16-7795c2f1bcd9")
+		(property "Reference" "R13"
+			(at 129.54 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 129.54 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.222 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd234ded-cde0-42d4-afd2-2d415d6b82e8")
+		)
+		(pin "1"
+			(uuid "edaf1f3d-65a3-440e-9938-474988771af2")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/877d1132-b95d-4f70-9d75-8a01aff9b6a8"
+					(reference "R13")
 					(unit 1)
 				)
 			)

@@ -2102,16 +2102,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 212.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045dd3fb-d0a2-426b-b1ef-2aa94a755db1")
-	)
-	(wire
-		(pts
 			(xy 50.8 50.8) (xy 48.26 50.8)
 		)
 		(stroke
@@ -2212,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 50.8) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246c9837-a664-4bc4-bd1d-6c65d872848d")
+	)
+	(wire
+		(pts
 			(xy 190.5 73.66) (xy 215.9 73.66)
 		)
 		(stroke
@@ -2219,6 +2219,16 @@
 			(type default)
 		)
 		(uuid "2fd22eb4-eee0-4c70-a349-9be83858b4aa")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33603951-3613-4aaa-8031-95056aaca05f")
 	)
 	(wire
 		(pts
@@ -2532,16 +2542,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 55.88) (xy 203.2 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6903be5c-b03a-4e35-b2a4-18e0ccd73293")
-	)
-	(wire
-		(pts
 			(xy 93.98 66.04) (xy 139.7 66.04)
 		)
 		(stroke
@@ -2562,16 +2562,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 55.88) (xy 212.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcf8ef6-7713-421a-a107-89c390beea90")
-	)
-	(wire
-		(pts
 			(xy 127 93.98) (xy 139.7 93.98)
 		)
 		(stroke
@@ -2589,16 +2579,6 @@
 			(type default)
 		)
 		(uuid "7726a9e2-ac1d-4649-8fb0-46a194870370")
-	)
-	(wire
-		(pts
-			(xy 226.06 81.28) (xy 226.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a85e7c-24be-4ba3-ba0a-b89f59fb52b2")
 	)
 	(wire
 		(pts
@@ -2669,6 +2649,16 @@
 			(type default)
 		)
 		(uuid "7cd73b1f-116a-48c5-9496-50eda75dfbf5")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d262607-ec43-4dac-a05c-dcf32bf6ca1e")
 	)
 	(wire
 		(pts
@@ -2882,6 +2872,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8de55a-d921-45d5-aa77-2e997b4a1a50")
+	)
+	(wire
+		(pts
 			(xy 251.46 134.62) (xy 251.46 124.46)
 		)
 		(stroke
@@ -2889,16 +2889,6 @@
 			(type default)
 		)
 		(uuid "9ecfb29b-004d-4e29-8576-272124b0e127")
-	)
-	(wire
-		(pts
-			(xy 190.5 58.42) (xy 203.2 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efb278c-1484-4138-8f8e-dbcf5902eb8d")
 	)
 	(wire
 		(pts
@@ -2919,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "a00cbdd3-95f3-463a-942c-b487e86995d6")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22847ad-2f2a-43d9-8d5d-af59ddfee3ec")
 	)
 	(wire
 		(pts
@@ -3282,6 +3282,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 58.42) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22c6d90-7464-426a-b2d1-70ba6de35c35")
+	)
+	(wire
+		(pts
 			(xy 93.98 43.18) (xy 104.14 43.18)
 		)
 		(stroke
@@ -3329,16 +3339,6 @@
 			(type default)
 		)
 		(uuid "ec0ee95d-0757-42a5-80e1-87475926b988")
-	)
-	(wire
-		(pts
-			(xy 190.5 83.82) (xy 226.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3a6921-d2db-4138-a3a3-af61d7baf9b7")
 	)
 	(wire
 		(pts
@@ -3928,6 +3928,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 241.3 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af1a52e-0d96-42ed-9944-1cd8663f4dbc")
+		(property "Reference" "R6"
+			(at 243.84 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 243.84 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.522 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976f6e5b-0459-4289-b9cb-9a8bcfe2b121")
+		)
+		(pin "1"
+			(uuid "f4ca5038-0f2d-4b6f-be9f-3a64dcf1f3d0")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 125.73 0)
 		(unit 1)
@@ -4275,76 +4345,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 125.73 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24795d98-59e0-4dc1-8b5f-be59e421bf05")
-		(property "Reference" "R19"
-			(at 128.27 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 128.27 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.952 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8b0ed4e-74c0-452b-8fa0-b82dec83786c")
-		)
-		(pin "1"
-			(uuid "4df8d1cb-ed3a-491f-81ac-74b3b941569e")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 31.75 48.26 0)
 		(unit 1)
@@ -4614,143 +4614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44344416-51fe-47c0-b567-ca7f99f8dc83")
-		(property "Reference" "R2"
-			(at 96.52 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 96.52 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.202 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa71589e-5937-4bc2-b523-63c64eb7c42e")
-		)
-		(pin "1"
-			(uuid "e25fdd69-f436-4270-9e60-786ec30b6040")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 212.09 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dcc88c5-280d-4462-9afd-fc54c222886a")
-		(property "Reference" "MFP7"
-			(at 209.55 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 214.63 53.8479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "642b0eaf-4739-4d15-a582-59afa6c32cf5")
-		)
-		(instances
-			(project ""
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "MFP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 127 153.67 0)
 		(unit 1)
@@ -4811,76 +4674,6 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5811b457-e3f2-4909-919f-0b55a363d00e")
-		(property "Reference" "R4"
-			(at 205.74 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 205.74 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 201.422 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccf1f45e-c118-4878-933e-6c9a9d90effb")
-		)
-		(pin "1"
-			(uuid "9bf41428-049e-4fb4-a82c-8be92442c4c8")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4953,6 +4746,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5953b9ad-da72-4b4e-bf67-3fd7e10cf726")
+		(property "Reference" "R9"
+			(at 78.74 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 78.74 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.422 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca7ee3c-865b-48f6-9151-49fc664fac3f")
+		)
+		(pin "1"
+			(uuid "da3d7117-75d8-4be9-9944-601c724d67d5")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 241.3 111.76 0)
 		(unit 1)
@@ -5013,6 +4876,76 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be40066-355b-43a5-a087-39fe22cd2364")
+		(property "Reference" "R17"
+			(at 139.7 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 139.7 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.382 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4ea144b-1203-4d4a-a22c-1fb97ef770ec")
+		)
+		(pin "1"
+			(uuid "7c223fd3-b82c-408c-8ad0-e891c9d88ba2")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5629,6 +5562,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "883573d6-54dc-4bc7-a8f9-3f81c659ac90")
+		(property "Reference" "TP2"
+			(at 218.44 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MFP7"
+			(at 218.44 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df7de99-3b32-470c-9a71-6231f47cc120")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 213.36 128.27 90)
 		(unit 1)
@@ -5894,146 +5894,6 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9a23d411-3d47-4817-bdc0-73f9791fdd5c")
-		(property "Reference" "R9"
-			(at 78.74 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 78.74 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.422 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7202acb-49a8-4a35-8996-d1bb25e9c817")
-		)
-		(pin "1"
-			(uuid "507efcce-04c9-4a6d-9e59-628e937af328")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cd1884a-38b3-4a9c-9419-f3a50ddac580")
-		(property "Reference" "R6"
-			(at 243.84 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 243.84 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 239.522 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec220870-825d-4c2b-8c1b-d04d1f2383bd")
-		)
-		(pin "1"
-			(uuid "acd8008f-e4f4-45dc-96c3-a65fc079a5d3")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6308,6 +6168,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 203.2 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba04b167-d9ac-4766-b8d6-2ed3198394a6")
+		(property "Reference" "R4"
+			(at 205.74 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 205.74 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 201.422 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fd0bd32-5c2d-47d8-83ba-68f933e3c30d")
+		)
+		(pin "1"
+			(uuid "0b785807-17b8-4df2-844b-538ddb29c362")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 97.79 0)
 		(unit 1)
@@ -6435,6 +6365,76 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e3a973-475b-4d87-9e03-8e3942146777")
+		(property "Reference" "R3"
+			(at 106.68 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 106.68 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 102.362 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "838d323a-0b45-4dc3-a5d6-15719612fd94")
+		)
+		(pin "1"
+			(uuid "c52a6456-eb24-4da4-9f70-4fddbe84f9e3")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6741,76 +6741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c721ccd3-53a9-4efc-979e-d0d4f90ed8c5")
-		(property "Reference" "R17"
-			(at 139.7 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 139.7 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.382 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b26e3e4-9f1c-4ef8-938b-ccc51a608e45")
-		)
-		(pin "1"
-			(uuid "d7504e77-8c97-45ff-824c-2d5734b98e35")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 76.2 153.67 0)
 		(unit 1)
@@ -6938,6 +6868,73 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b97ebc-3009-4bc3-a49f-af42599aebd4")
+		(property "Reference" "TP1"
+			(at 205.74 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MFP8"
+			(at 205.74 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0cea040-6697-4a15-98d3-d220008acad1")
+		)
+		(instances
+			(project ""
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7149,15 +7146,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 203.2 55.88 0)
+		(at 228.6 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc503dcf-da74-44e0-ad06-5ce7e624ebb8")
-		(property "Reference" "MFP8"
-			(at 200.66 50.292 0)
+		(fields_autoplaced yes)
+		(uuid "dc461092-5313-42a1-a7f7-620c94b9559d")
+		(property "Reference" "TP3"
+			(at 231.14 71.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,18 +7163,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 205.74 53.8479 0)
+		(property "Value" "MFP6"
+			(at 231.14 74.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 208.28 55.88 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 55.88 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7191,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 203.2 55.88 0)
+			(at 228.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,12 +7200,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d9d06e8-b172-4a53-a0e4-1cd99c95ebf1")
+			(uuid "c39e978b-0309-4165-aca3-31ee85a16cdd")
 		)
 		(instances
-			(project ""
+			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "MFP8")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7342,6 +7339,76 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e548b827-2e33-41f4-bb63-65644c398b47")
+		(property "Reference" "R11"
+			(at 78.74 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 78.74 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.422 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "760f368b-0f8d-4f07-9647-31054d6fe5eb")
+		)
+		(pin "1"
+			(uuid "ab986aa4-9c32-4678-923b-b73f3906da7f")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7625,143 +7692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 226.06 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed897cbb-24a0-4121-b4e2-30a6dab4a660")
-		(property "Reference" "MFP6"
-			(at 223.52 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 228.6 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e38152c9-8c04-4ccb-9310-866002dc615e")
-		)
-		(instances
-			(project ""
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "MFP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f473a87b-35cf-49d1-9e3a-d208a7463a2b")
-		(property "Reference" "R11"
-			(at 78.74 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 78.74 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.422 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85066918-1ad5-4199-8366-f99b2ab7240b")
-		)
-		(pin "1"
-			(uuid "b0ad1e66-7491-4a39-9e34-920ac5b0d59d")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 105.41 0)
 		(unit 1)
@@ -7826,6 +7756,146 @@
 			(project ""
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c8ad69-685b-44ce-9b03-2e9bd5767ac2")
+		(property "Reference" "R19"
+			(at 128.27 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 128.27 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.952 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "383ea55b-8850-47d1-ae83-f553bc780df3")
+		)
+		(pin "1"
+			(uuid "ae8b7bea-4fb5-489d-8f37-c1968e0c0207")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76b5b2b-91b3-4734-adaf-93b692cff4af")
+		(property "Reference" "R2"
+			(at 96.52 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 96.52 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.202 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d84969a7-5122-45ad-aecb-1ad3043d7641")
+		)
+		(pin "1"
+			(uuid "6835fd1f-09ff-4174-bd8f-2d382b3b7d9c")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7962,76 +8032,6 @@
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe2ba936-3ba5-4a4a-a22b-5324676cc559")
-		(property "Reference" "R3"
-			(at 106.68 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 106.68 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.362 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f37a0758-f204-4725-a27b-fc7f18987beb")
-		)
-		(pin "1"
-			(uuid "f4a92361-5ee7-420a-a4cd-c4bbb475632e")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/7d5b9018-1d5d-4fe7-9ecf-86a5900c7cec"
-					(reference "R3")
 					(unit 1)
 				)
 			)

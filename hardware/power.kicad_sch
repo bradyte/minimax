@@ -2684,75 +2684,6 @@
 	)
 	(symbol
 		(lib_id "user:TFM252012ALMA3R3MTAA")
-		(at 180.34 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a7e3db7-61df-463d-817e-bb0228f6d785")
-		(property "Reference" "L4"
-			(at 180.34 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3U3"
-			(at 180.34 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user:IND_TFM252012ALMA_TDK"
-			(at 182.8799 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0957bcb3-86f6-408d-8288-ef09a6721d4d")
-		)
-		(pin "1"
-			(uuid "690836f4-30a3-4e83-ba12-a8dcb8e53a70")
-		)
-		(instances
-			(project "minimax"
-				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/ba3a448a-6748-45c3-b453-58c3c5225dd9"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "user:TFM252012ALMA3R3MTAA")
 		(at 66.04 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3548,43 +3479,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 72.39 0)
+		(lib_id "user:TFM252012ALMA3R3MTAA")
+		(at 180.34 86.36 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c696151-1db2-4ef3-b99a-fe7219b329a5")
-		(property "Reference" "R15"
-			(at 79.756 71.12 0)
+		(uuid "4fd760c1-740d-4f98-b2e1-3b74f8a134b1")
+		(property "Reference" "L4"
+			(at 180.34 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3U3"
+			(at 180.34 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "user:IND_TFM252012ALMA_TDK"
+			(at 177.8001 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 79.248 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.312 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 72.39 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,8 +3523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 85.09 72.39 0)
+		(property "Description" "Inductor"
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,15 +3533,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "88759649-b632-499f-a43e-5eccdf36f025")
+			(uuid "db91bab3-4150-4693-91ad-1bfb5f239df5")
 		)
 		(pin "1"
-			(uuid "d8dc5f00-5634-4863-b45a-2e2e6b285177")
+			(uuid "f515a808-32ca-4443-bcb2-25746461d1c5")
 		)
 		(instances
 			(project "minimax"
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/ba3a448a-6748-45c3-b453-58c3c5225dd9"
-					(reference "R15")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4020,6 +3951,76 @@
 			(project ""
 				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/ba3a448a-6748-45c3-b453-58c3c5225dd9"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d4a3e7b-3a79-4689-86c6-9010c558b3af")
+		(property "Reference" "R15"
+			(at 82.55 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 82.55 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 86.868 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2832b1d0-5354-405a-9c3c-5e79ffa24cd4")
+		)
+		(pin "1"
+			(uuid "bd2a05ce-b8df-4e0d-8e4c-3ef5af3e0259")
+		)
+		(instances
+			(project "minimax"
+				(path "/d9b03904-3e0d-40cc-bc70-bbd63756773a/ba3a448a-6748-45c3-b453-58c3c5225dd9"
+					(reference "R15")
 					(unit 1)
 				)
 			)
